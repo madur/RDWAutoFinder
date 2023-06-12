@@ -1,13 +1,10 @@
 using AutoFinder.Application.Contracts.Persistance;
 using AutoFinder.Application.Contracts.Service;
 using AutoFinder.Application.Profile;
-using AutoFinder.Application.Settings;
 using AutoFinder.Domain.Entities;
 using AutoFinder.Services.RdwAuto;
 using AutoFixture;
 using AutoMapper;
-using ExpertFinder.Application.UnitTests.TestData;
-using Microsoft.Extensions.Options;
 using Moq;
 using NUnit.Framework;
 

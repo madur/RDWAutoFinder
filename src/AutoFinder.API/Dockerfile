@@ -14,10 +14,10 @@ COPY ["AutoFinder.API/AutoFinder.API.csproj", "AutoFinder.API/"]
 RUN dotnet restore "AutoFinder.API/AutoFinder.API.csproj"
 COPY . .
 WORKDIR "/src/AutoFinder.API"
-RUN dotnet build "AutoFinder.API.csproj" -c Release -o /app/build
+RUN dotnet build "AutoFinder.API.csproj" -c Prod -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "AutoFinder.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "AutoFinder.API.csproj" -c Prod -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
