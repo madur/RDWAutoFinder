@@ -52,4 +52,4 @@ Integration tests project: **AutoFinder.IntegrationTests** - customise API url i
 
 Logs available on: **\logs\AutoFinderAPI.log**
 
-For best production monitoring can be setup: New Relic, Raygun etc. applications
+For best production monitoring can be setup: **New Relic, Raygun etc.**
