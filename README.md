@@ -25,9 +25,11 @@ Install Microsoft Visual Studio Professional 2022 [https://visualstudio.microsof
 
 Choose Configuration : **Dev or Prod**
 
-Build Solution with configuration: **dotnet build --configuration=Dev**
+Build Solution with configuration: **dotnet build --configuration Dev**
 
 Run local API: **dotnet run --project "AutoFinder.API.csproj" --configuration Dev --launch-profile "AutoFinder.API"**
 
-API will be available on browser: **[https://localhost:7062/swagger/index.html](https://localhost:7062/swagger/index.html)**
+API Swagger UI will be available on browser: **[https://localhost:7062/swagger/index.html](https://localhost:7062/swagger/index.html)**
+
+For Autorization in Swagger use APIKey: **pgH7QzFHJx4w46fI**
 
