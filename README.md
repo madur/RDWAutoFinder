@@ -12,5 +12,10 @@ This is using ASP.NET Core with:
 - Built-in Swagger via [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 - [SODA](https://dev.socrata.com/) for RDW request!
 - ApiKey authentication
-- `.editorconfig` to enforce some usage patterns
+- DDD API Achitecture 
+- Production ready API - Different .NET Configuration, ExceptionMiddileWare and Logging
 
+## Getting started
+
+Install the .NET Core SDK 6.0 Long Term Support: [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
+Install Microsoft Visual Studio Professional 2022 [https://visualstudio.microsoft.com/downloads](https://visualstudio.microsoft.com/downloads)
