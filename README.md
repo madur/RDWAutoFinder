@@ -29,7 +29,18 @@ Run local API: **dotnet run --project "AutoFinder.API.csproj" --configuration De
 
 API Swagger UI will be available on browser: **[https://localhost:7062/swagger/index.html](https://localhost:7062/swagger/index.html)**
 
+## Swagger and API Run
+
 For Authorizations in Swagger use APIKey: **pgH7QzFHJx4w46fI**
+
+For RDW request use: **RdwAutoFinder HTTPGET endpoint**
+
+Parameters can be combination or only one:
+**plateNumber**: begining of plate license number
+**brand**: Car brand in uppercase
+**autoType**: can be Aanhangwagen, Personenauto, Land- of bosbouwtrekker ...
+
+
 
 ## Itegration and unit tests
 
