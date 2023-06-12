@@ -66,3 +66,4 @@ Dockerfile can be use to run AutoFinder.API in Docker
 1. Improve SODA integration, we need to improve abstration level in Arhitecture
 2. Create CI/CD pipeline for GitHub Actions
 3. Persist the data of RDW API retrieve via the MongoDB
+4. Additional integration and unit tests
