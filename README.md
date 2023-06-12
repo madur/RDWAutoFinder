@@ -31,3 +31,8 @@ API Swagger UI will be available on browser: **[https://localhost:7062/swagger/i
 
 For Authorizations in Swagger use APIKey: **pgH7QzFHJx4w46fI**
 
+## Itegration & Unit tests
+Unit tests project: **AutoFinder.Application.UnitTests**
+
+Integration tests project: **AutoFinder.IntegrationTests** - customise API url in **\AutoFinder.IntegrationTests\TestData\TestSettings.json**
+
