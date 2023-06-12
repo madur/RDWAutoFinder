@@ -1,4 +1,4 @@
-# ![RDW Auto Finder App](logo.png)
+# ![RDW Auto Finder App](logo.png) 
 
 .NET Core codebase containing RDW Auto Finder (a REST API that lets you search on a license plate to retrieve vehicle information). 
 The information about license plate is coming from the following API's: 
