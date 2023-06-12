@@ -36,9 +36,12 @@ For Authorizations in Swagger use APIKey: **pgH7QzFHJx4w46fI**
 For RDW request use: **RdwAutoFinder HTTPGET endpoint**
 
 Parameters can be combination or only one:
+
 **plateNumber**: begining of plate license number
+
 **brand**: Car brand in uppercase
-**autoType**: can be Aanhangwagen, Personenauto, Land- of bosbouwtrekker ...
+
+**autoType**: please use those values: "Aanhangwagen", "Personenauto", "Land- of bosbouwtrekker" ...
 
 
 
