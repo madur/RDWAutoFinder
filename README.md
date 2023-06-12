@@ -10,7 +10,7 @@ This is using ASP.NET Core with:
 
 - [AutoMapper](http://automapper.org)
 - Built-in Swagger via [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-- [SODA](https://dev.socrata.com/) for RDW request!
+- [SODA](https://dev.socrata.com/) for RDW request
 - ApiKey authentication
 - DDD API Achitecture 
 - Production ready API - Different .NET Configuration, ExceptionMiddileWare and Logging
