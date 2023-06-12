@@ -31,8 +31,14 @@ API Swagger UI will be available on browser: **[https://localhost:7062/swagger/i
 
 For Authorizations in Swagger use APIKey: **pgH7QzFHJx4w46fI**
 
-## Itegration & Unit tests
+## Itegration and unit tests
+
 Unit tests project: **AutoFinder.Application.UnitTests**
 
 Integration tests project: **AutoFinder.IntegrationTests** - customise API url in **\AutoFinder.IntegrationTests\TestData\TestSettings.json**
 
+## Application monitoring in production
+
+Logs available on: **\logs\AutoFinderAPI.log**
+
+For best production monitoring can be setup: New Relic, Raygun etc. applications
