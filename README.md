@@ -60,3 +60,9 @@ For best production monitoring can be setup: **New Relic, Raygun etc.**
 ## Docker
 
 Dockerfile can be use to run AutoFinder.API in Docker 
+
+## TODO List
+
+1. Improve SODA integration, we need to improve abstration level in Arhitecture
+2. Create CI/CD pipeline for GitHub Actions
+3. Persist the data of RDW API retrieve via the MongoDB
