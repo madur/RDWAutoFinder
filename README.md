@@ -11,7 +11,7 @@ This is using ASP.NET Core with:
 - [AutoMapper](http://automapper.org)
 - Built-in Swagger via [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
 - [SODA](https://dev.socrata.com/) for RDW request
-- ApiKey authentication
+- ApiKey authentication(only one APIKey available **pgH7QzFHJx4w46fI**)
 - DDD API Achitecture 
 - Production ready API - Different .NET Configuration, ExceptionMiddileWare and Logging
 
@@ -29,5 +29,5 @@ Run local API: **dotnet run --project "AutoFinder.API.csproj" --configuration De
 
 API Swagger UI will be available on browser: **[https://localhost:7062/swagger/index.html](https://localhost:7062/swagger/index.html)**
 
-For Autorization in Swagger use APIKey: **pgH7QzFHJx4w46fI**
+For Authorizations in Swagger use APIKey: **pgH7QzFHJx4w46fI**
 
