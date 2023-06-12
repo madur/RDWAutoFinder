@@ -19,8 +19,6 @@ This is using ASP.NET Core with:
 
 Install the .NET Core SDK 6.0 Long Term Support: [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
 
-Install Microsoft Visual Studio Professional 2022 [https://visualstudio.microsoft.com/downloads](https://visualstudio.microsoft.com/downloads)
-
 ## How to Run
 
 Choose Configuration : **Dev or Prod**
