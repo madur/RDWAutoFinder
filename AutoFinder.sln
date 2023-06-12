@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.API", "AutoFinder.API\AutoFinder.API.csproj", "{080B0FED-91E5-402D-A5B6-6410C4F1A741}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.API", "src\AutoFinder.API\AutoFinder.API.csproj", "{080B0FED-91E5-402D-A5B6-6410C4F1A741}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{EC1A0779-0E95-4F6A-8E21-A124BB794BF8}"
 EndProject
@@ -13,19 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{26C111F1-878D-461A-9DBE-5858800B8E76}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Application", "Core\AutoFinder.Application\AutoFinder.Application.csproj", "{4A6D8B5D-4736-4EC3-AA57-C716B2AA1733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Application", "src\Core\AutoFinder.Application\AutoFinder.Application.csproj", "{4A6D8B5D-4736-4EC3-AA57-C716B2AA1733}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Services", "Core\AutoFinder.Services\AutoFinder.Services.csproj", "{17F59058-D821-4D55-9BA0-8BF8E0AEC71B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Services", "src\Core\AutoFinder.Services\AutoFinder.Services.csproj", "{17F59058-D821-4D55-9BA0-8BF8E0AEC71B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Domain", "Core\AutoFinder.Domain\AutoFinder.Domain.csproj", "{AB23AB50-7792-4E8A-A215-8178CCE1FD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Domain", "src\Core\AutoFinder.Domain\AutoFinder.Domain.csproj", "{AB23AB50-7792-4E8A-A215-8178CCE1FD5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutotFinder.Infrastructure", "Infrastructure\AutotFinder.Infrastructure\AutotFinder.Infrastructure.csproj", "{B0350DE5-5AB3-4199-A255-028F36D9C7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutotFinder.Infrastructure", "src\Infrastructure\AutotFinder.Infrastructure\AutotFinder.Infrastructure.csproj", "{B0350DE5-5AB3-4199-A255-028F36D9C7C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Infrastructure.Persistence", "Infrastructure\AutoFinder.Infrastructure.Persistence\AutoFinder.Infrastructure.Persistence.csproj", "{67467B80-183E-4EFF-8F42-1DC9584E4666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoFinder.Infrastructure.Persistence", "src\Infrastructure\AutoFinder.Infrastructure.Persistence\AutoFinder.Infrastructure.Persistence.csproj", "{67467B80-183E-4EFF-8F42-1DC9584E4666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.Application.UnitTests", "Tests\AutoFinder.Application.UnitTests\AutoFinder.Application.UnitTests.csproj", "{6F0BBFF7-D94F-409B-8B7F-4FB07E8BFCB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.Application.UnitTests", "src\Tests\AutoFinder.Application.UnitTests\AutoFinder.Application.UnitTests.csproj", "{6F0BBFF7-D94F-409B-8B7F-4FB07E8BFCB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.IntegrationTests", "Tests\AutoFinder.IntegrationTests\AutoFinder.IntegrationTests.csproj", "{F3D0BC82-0D03-4E0C-8A71-C4F11C903AF1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoFinder.IntegrationTests", "src\Tests\AutoFinder.IntegrationTests\AutoFinder.IntegrationTests.csproj", "{F3D0BC82-0D03-4E0C-8A71-C4F11C903AF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
